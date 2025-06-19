@@ -1,5 +1,15 @@
+# Dependencies
 node_modules/
 
+# Database files
 *.db
+*.sqlite
+*.sqlite3
+prisma/dev.db
+prisma/*.db
 
+# Environment variables
 .env
+
+# Build output
+dist/
