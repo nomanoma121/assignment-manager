@@ -14,9 +14,11 @@
     "db:push": "prisma db push",
     "test": "vitest",
     "test:ui": "vitest --ui",
+    "type-check": "tsc --noEmit",
     "lint": "eslint src --ext .ts",
     "lint:fix": "eslint src --ext .ts --fix",
-    "format": "prettier --write src/**/*.ts"
+    "format": "prettier --write src/**/*.ts",
+    "format:check": "prettier --check src/**/*.ts"
   },
   "repository": {
     "type": "git",
