@@ -9,6 +9,7 @@
     "start": "node dist/main.js",
     "dev": "tsx src/main.ts",
     "deploy-commands": "tsx src/presentation/deploy-commands.ts",
+    "invite-bot": "tsx src/scripts/generate-invite.ts",
     "db:migrate": "prisma migrate dev",
     "db:generate": "prisma generate",
     "db:push": "prisma db push",

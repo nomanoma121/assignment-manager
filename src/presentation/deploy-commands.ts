@@ -1,3 +1,4 @@
+import 'reflect-metadata';
 import { REST, Routes } from 'discord.js';
 import { readdir } from 'fs/promises';
 import { pathToFileURL } from 'url';
